@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC88BD214D9EA120029A2AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC88BD114D9EA120029A2AE /* UIKit.framework */; };
+		9DC88BD414D9EA120029A2AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC88BD314D9EA120029A2AE /* Foundation.framework */; };
+		9DC88BD614D9EA120029A2AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC88BD514D9EA120029A2AE /* CoreGraphics.framework */; };
+		9DC88BDC14D9EA120029A2AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DC88BDA14D9EA120029A2AE /* InfoPlist.strings */; };
+		9DC88BDE14D9EA120029A2AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC88BDD14D9EA120029A2AE /* main.m */; };
+		9DC88BE214D9EA120029A2AE /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC88BE114D9EA120029A2AE /* TSAppDelegate.m */; };
+		9DC88BE514D9EA120029A2AE /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC88BE414D9EA120029A2AE /* TSViewController.m */; };
+		9DC88BE814D9EA120029A2AE /* TSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DC88BE614D9EA120029A2AE /* TSViewController.xib */; };
+		9DC88BF014DA333A0029A2AE /* BaseScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC88BEF14DA333A0029A2AE /* BaseScrollController.m */; };
+		9DC88BF214DA35AE0029A2AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9DC88BF114DA35AE0029A2AE /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DC88BCD14D9EA120029A2AE /* TextScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC88BD114D9EA120029A2AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DC88BD314D9EA120029A2AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DC88BD514D9EA120029A2AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DC88BD914D9EA120029A2AE /* TextScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextScroller-Info.plist"; sourceTree = "<group>"; };
+		9DC88BDB14D9EA120029A2AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DC88BDD14D9EA120029A2AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DC88BDF14D9EA120029A2AE /* TextScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextScroller-Prefix.pch"; sourceTree = "<group>"; };
+		9DC88BE014D9EA120029A2AE /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
+		9DC88BE114D9EA120029A2AE /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
+		9DC88BE314D9EA120029A2AE /* TSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		9DC88BE414D9EA120029A2AE /* TSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		9DC88BE714D9EA120029A2AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TSViewController.xib; sourceTree = "<group>"; };
+		9DC88BEE14DA333A0029A2AE /* BaseScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = BaseScrollController.h; sourceTree = "<group>"; };
+		9DC88BEF14DA333A0029A2AE /* BaseScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScrollController.m; sourceTree = "<group>"; };
+		9DC88BF114DA35AE0029A2AE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC88BCA14D9EA120029A2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC88BD214D9EA120029A2AE /* UIKit.framework in Frameworks */,
+				9DC88BD414D9EA120029A2AE /* Foundation.framework in Frameworks */,
+				9DC88BD614D9EA120029A2AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC88BC214D9EA120029A2AE = {
+			isa = PBXGroup;
+			children = (
+				9DC88BF114DA35AE0029A2AE /* README.md */,
+				9DC88BD714D9EA120029A2AE /* TextScroller */,
+				9DC88BD014D9EA120029A2AE /* Frameworks */,
+				9DC88BCE14D9EA120029A2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC88BCE14D9EA120029A2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC88BCD14D9EA120029A2AE /* TextScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC88BD014D9EA120029A2AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC88BD114D9EA120029A2AE /* UIKit.framework */,
+				9DC88BD314D9EA120029A2AE /* Foundation.framework */,
+				9DC88BD514D9EA120029A2AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DC88BD714D9EA120029A2AE /* TextScroller */ = {
+			isa = PBXGroup;
+			children = (
+				9DC88BEE14DA333A0029A2AE /* BaseScrollController.h */,
+				9DC88BEF14DA333A0029A2AE /* BaseScrollController.m */,
+				9DC88BE014D9EA120029A2AE /* TSAppDelegate.h */,
+				9DC88BE114D9EA120029A2AE /* TSAppDelegate.m */,
+				9DC88BE314D9EA120029A2AE /* TSViewController.h */,
+				9DC88BE414D9EA120029A2AE /* TSViewController.m */,
+				9DC88BE614D9EA120029A2AE /* TSViewController.xib */,
+				9DC88BD814D9EA120029A2AE /* Supporting Files */,
+			);
+			path = TextScroller;
+			sourceTree = "<group>";
+		};
+		9DC88BD814D9EA120029A2AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DC88BD914D9EA120029A2AE /* TextScroller-Info.plist */,
+				9DC88BDA14D9EA120029A2AE /* InfoPlist.strings */,
+				9DC88BDD14D9EA120029A2AE /* main.m */,
+				9DC88BDF14D9EA120029A2AE /* TextScroller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC88BCC14D9EA120029A2AE /* TextScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC88BEB14D9EA120029A2AE /* Build configuration list for PBXNativeTarget "TextScroller" */;
+			buildPhases = (
+				9DC88BC914D9EA120029A2AE /* Sources */,
+				9DC88BCA14D9EA120029A2AE /* Frameworks */,
+				9DC88BCB14D9EA120029A2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextScroller;
+			productName = TextScroller;
+			productReference = 9DC88BCD14D9EA120029A2AE /* TextScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC88BC414D9EA120029A2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9DC88BC714D9EA120029A2AE /* Build configuration list for PBXProject "TextScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9DC88BC214D9EA120029A2AE;
+			productRefGroup = 9DC88BCE14D9EA120029A2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC88BCC14D9EA120029A2AE /* TextScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC88BCB14D9EA120029A2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC88BDC14D9EA120029A2AE /* InfoPlist.strings in Resources */,
+				9DC88BE814D9EA120029A2AE /* TSViewController.xib in Resources */,
+				9DC88BF214DA35AE0029A2AE /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC88BC914D9EA120029A2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC88BDE14D9EA120029A2AE /* main.m in Sources */,
+				9DC88BE214D9EA120029A2AE /* TSAppDelegate.m in Sources */,
+				9DC88BE514D9EA120029A2AE /* TSViewController.m in Sources */,
+				9DC88BF014DA333A0029A2AE /* BaseScrollController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DC88BDA14D9EA120029A2AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC88BDB14D9EA120029A2AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DC88BE614D9EA120029A2AE /* TSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC88BE714D9EA120029A2AE /* en */,
+			);
+			name = TSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC88BE914D9EA120029A2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DC88BEA14D9EA120029A2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC88BEC14D9EA120029A2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextScroller/TextScroller-Prefix.pch";
+				INFOPLIST_FILE = "TextScroller/TextScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DC88BED14D9EA120029A2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TextScroller/TextScroller-Prefix.pch";
+				INFOPLIST_FILE = "TextScroller/TextScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC88BC714D9EA120029A2AE /* Build configuration list for PBXProject "TextScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC88BE914D9EA120029A2AE /* Debug */,
+				9DC88BEA14D9EA120029A2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC88BEB14D9EA120029A2AE /* Build configuration list for PBXNativeTarget "TextScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC88BEC14D9EA120029A2AE /* Debug */,
+				9DC88BED14D9EA120029A2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC88BC414D9EA120029A2AE /* Project object */;
+}
