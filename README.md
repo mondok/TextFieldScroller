@@ -1,4 +1,4 @@
-iOS Baseclass for moving content located under keyboard 
+TextFieldScroller
 =======================
 
 The BaseScrollController base controller is intended to do automatically scroll text fields so that the keyboard does not cover them while editing in an iOS application.  The BaseScrollController also automatically resigns first responder.
